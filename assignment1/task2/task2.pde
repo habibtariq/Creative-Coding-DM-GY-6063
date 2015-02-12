@@ -3,19 +3,29 @@ void setup(){
 }
 void draw(){
   background(255);
-  float x1,y1,x2,y2,x3,y3,x4,y4,x5,y5,x6,y6,x7,y7;
-  x1=random(500);
-  y1=random(500);
-  x2=random(500);
-  y2=random(500);
-  x7=random(500);
-  y7=random(500);
+  int background_color = 200;
   
-  float radius= dist(x1,y1,x7,y7);
-  arc(x1,y1,radius, radius, 0 , TWO_PI);
-  line(x1,y1,x2,y2);
-  line(random(375,500),random(375,500),375,random(0,250));
-//  arc(250, 250, 200, 200, 0, PI);
+  fill(background_color);
+  ellipse(375,200,10,10); //Point 1
+  fill(background_color);
+  ellipse(random(500),random(500),10,10); //Point 2
+  fill(background_color);
+  ellipse(50,100,10,10); //Point 3
+  fill(background_color);
+  ellipse(random(500),random(500),10,10); //Point 4
+  fill(background_color);
+  ellipse(random(500),random(500),10,10); //Point 5
+  fill(background_color);
+  ellipse(250,250,10,10); //Point 6
+  fill(background_color);
+  ellipse(122,345,10,10); //Point 7
+  fill(0);
+  ellipse(150,175,10,10); //Point 8
+
+  float radius = dist(375,200,122,345);
+  noFill();
+  arc(375,200,radius, radius, 0 , PI);
+  line(500,0,375,500);
   delay(1000);
 
 }
