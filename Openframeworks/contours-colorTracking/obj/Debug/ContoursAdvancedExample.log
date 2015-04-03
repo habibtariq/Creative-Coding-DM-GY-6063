@@ -1,0 +1,71 @@
+﻿Build started 4/2/2015 8:35:58 PM.
+     1>Project "P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\ContoursAdvancedExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         P:\Visual Studio\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /Isrc /I..\..\..\addons\ofxCv\libs /I..\..\..\addons\ofxCv\libs\CLD /I..\..\..\addons\ofxCv\libs\CLD\include /I..\..\..\addons\ofxCv\libs\CLD\include\CLD /I..\..\..\addons\ofxCv\libs\CLD\src /I..\..\..\addons\ofxCv\libs\ofxCv /I..\..\..\addons\ofxCv\libs\ofxCv\include /I..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv /I..\..\..\addons\ofxCv\libs\ofxCv\src /I..\..\..\addons\ofxCv\src /I..\..\..\addons\ofxOpenCv\libs /I..\..\..\addons\ofxOpenCv\libs\opencv /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2 /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\contrib /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\core /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\features2d /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\flann /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\gpu /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\highgui /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\legacy /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\ml /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\ts /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\video /I..\..\..\addons\ofxOpenCv\libs\opencv\lib /I..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs /I..\..\..\addons\ofxOpenCv\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\ofApp.cpp
+         ofApp.cpp
+     1>p:\openframeworks\of_v0.8.4_vs_release\libs\poco\include\poco\streamconverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 p:\visual studio\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>p:\openframeworks\of_v0.8.4_vs_release\libs\poco\include\poco\streamconverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 p:\visual studio\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+       Link:
+         P:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\ContoursAdvancedExample_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs /LIBPATH:..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudioD.lib videoInputD.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib ssleay32MD.lib libeay32MD.lib crypt32.lib PocoFoundationmdd.lib PocoNetmdd.lib PocoUtilmdd.lib PocoXMLmdd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_calib3d231d.lib opencv_contrib231d.lib opencv_core231d.lib opencv_features2d231d.lib opencv_flann231d.lib opencv_gpu231d.lib opencv_haartraining_engined.lib opencv_highgui231d.lib opencv_imgproc231d.lib opencv_legacy231d.lib opencv_ml231d.lib opencv_objdetect231d.lib opencv_video231d.lib zlibd.lib /NODEFAULTLIB:PocoFoundationmdd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:msvcrt /NODEFAULTLIB:libcmt /NODEFAULTLIB:LIBC /NODEFAULTLIB:LIBCMTD /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\bin\ContoursAdvancedExample_debug_debugInfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\ContoursAdvancedExample_debug.lib" /MACHINE:X86 /SAFESEH obj\Debug\main.obj
+         obj\Debug\ofApp.obj
+         obj\Debug\ETF.obj
+         obj\Debug\fdog.obj
+         obj\Debug\Calibration.obj
+         obj\Debug\ContourFinder.obj
+         obj\Debug\Distance.obj
+         obj\Debug\Flow.obj
+         obj\Debug\Helpers.obj
+         obj\Debug\ObjectFinder.obj
+         obj\Debug\RunningBackground.obj
+         obj\Debug\Tracker.obj
+         obj\Debug\Utilities.obj
+         obj\Debug\Wrappers.obj
+         obj\Debug\ofxCvColorImage.obj
+         obj\Debug\ofxCvContourFinder.obj
+         obj\Debug\ofxCvFloatImage.obj
+         obj\Debug\ofxCvGrayscaleImage.obj
+         obj\Debug\ofxCvHaarFinder.obj
+         obj\Debug\ofxCvImage.obj
+         obj\Debug\ofxCvShortImage.obj
+         P:\openFrameworks\of_v0.8.4_vs_release\libs\openFrameworksCompiled\lib\vs\openframeworksLib_debug.lib
+         ContoursAdvancedExample.vcxproj -> P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\bin\ContoursAdvancedExample_debug.exe
+       PostBuildEvent:
+         xcopy /e /i /y "P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\..\..\..\export\vs\*.dll" "P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\bin"
+         :VCEnd
+         P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\..\..\..\export\vs\Assimp32.dll
+         P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\..\..\..\export\vs\fmodex.dll
+         P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\..\..\..\export\vs\fmodexL.dll
+         P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\..\..\..\export\vs\FreeImage.dll
+         P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\..\..\..\export\vs\FreeType-6.dll
+         P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\..\..\..\export\vs\glut32.dll
+         P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\..\..\..\export\vs\libeay32.dll
+         P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\..\..\..\export\vs\ssleay32.dll
+         P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\..\..\..\export\vs\Zlib.dll
+         9 File(s) copied
+     1>Done Building Project "P:\openFrameworks\of_v0.8.4_vs_release\examples\project\example-contours-advanced\ContoursAdvancedExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.81
